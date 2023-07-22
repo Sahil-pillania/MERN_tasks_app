@@ -10,6 +10,7 @@
 
 ### Then you can use the app and manage your tasks. Your app will be shown on `http://localhost:3000`
 
-// Sample image
+## Sample image
 
-![Image Alt Text](./src/assets/image.png)
+![screencapture-localhost-3000-2023-07-22-11_33_37](https://github.com/Sahil-pillania/MERN_tasks_app/assets/80634110/bce05070-3c23-4969-820a-7662a96db3c8)
+![Image]("./src/assets/image.png")
