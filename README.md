@@ -13,4 +13,11 @@
 ## Sample image
 
 ![screencapture-localhost-3000-2023-07-22-11_33_37](https://github.com/Sahil-pillania/MERN_tasks_app/assets/80634110/bce05070-3c23-4969-820a-7662a96db3c8)
-![Image]("./src/assets/image.png")
+
+## Video Preview
+
+https://github.com/Sahil-pillania/MERN_tasks_app/assets/80634110/6ae808da-d7a9-433f-875d-22f70e796251
+
+
+
+
