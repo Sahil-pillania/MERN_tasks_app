@@ -145,15 +145,15 @@ const Notes = ({ showAlert }) => {
       <AddNote showAlert={showAlert} />
 
       {/* <!-- Button trigger modal --> */}
-      <button
-        ref={ref}
-        type="button"
-        className="btn btn-primary d-none"
-        data-bs-toggle="modal"
-        data-bs-target="#exampleModal"
-      >
-        Launch modal
-      </button>
+      // <button
+      //   ref={ref}
+      //   type="button"
+      //   className="btn btn-primary d-none"
+      //   data-bs-toggle="modal"
+      //   data-bs-target="#exampleModal"
+      // >
+      //   Launch modal
+      // </button>
 
       {/* <!-- Modal --> */}
       {show && (
@@ -305,9 +305,7 @@ const Notes = ({ showAlert }) => {
         </div>
         {/* <hr /> */}
         <h2>Your Notes 📒</h2>
-        {/* <div className="container">
-          {notes.length === 0 && "No notes to display"}
-        </div> */}
+       
 
         {toggleSearchBox && (
           <div style={{ textAlign: "center" }}>
@@ -360,23 +358,7 @@ const Notes = ({ showAlert }) => {
                 Search
               </button>
             </div>
-            {/* <div className="container">
-              {searchednotes.length === 0 && "No search output to display"}
-            </div> */}
-            {/* {searchednotes.map((note, index) => {
-              //console.log(note._id);
-              return (
-                <>
-                  <NoteItem
-                  key={note._id}
-                  updateNote={updateNote}
-                  note={note}
-                  showAlert={showAlert}
-                />
-                 
-                </>
-              );
-            })} */}
+          
             <div style={{ padding: "50px 20px" }}>
               <DataTable
                 columns={column}
@@ -389,17 +371,7 @@ const Notes = ({ showAlert }) => {
         )}
         {!toggleSearchBox && (
           <>
-            {/* notes.map((note, index) => {
-            //console.log(note._id);
-            return (
-              <NoteItem
-                key={note._id}
-                updateNote={updateNote}
-                note={note}
-                showAlert={showAlert}
-              />
-            );
-          }) */}
+          
             <div style={{ padding: "50px 10px" }}>
               <DataTable
                 columns={column}
